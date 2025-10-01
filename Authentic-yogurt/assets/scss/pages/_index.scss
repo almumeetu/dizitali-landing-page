@@ -1,0 +1,22 @@
+.customer-review-section-wrapper{
+    background-color: var(--st-grey-2);
+    .swiper {
+        padding-bottom: 68px;
+        .swiper-pagination{
+            bottom: 0;
+        }
+        .swiper-pagination-bullet{
+            width: 20px;              
+            border: 2px solid #b30021; 
+            background: transparent;   
+            opacity: 1;                
+            border-radius: 0;          
+            margin: 0 5px !important;  
+        }
+        .swiper-pagination-bullet-active {
+            background: #b30021; 
+            border-color: #b30021;
+        }
+    }
+    
+}
