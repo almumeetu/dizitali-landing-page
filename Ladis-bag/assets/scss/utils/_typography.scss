@@ -1,0 +1,100 @@
+
+// font url
+
+$font-url: 'https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap';
+
+// font family
+$font-family: (
+    ff: (
+        body: "'Hind Siliguri', sans-serif",
+        heading: "'Hind Siliguri', sans-serif",
+        p: "'Hind Siliguri', sans-serif",
+        menu: "'Hind Siliguri', sans-serif",
+        button: "'Hind Siliguri', sans-serif",
+    )
+);
+
+// font weight
+$font-scale: (
+    fw: (
+        normal: normal,
+        regular: 400,
+        medium: 500,
+        sbold: 600,
+        bold: 700,
+        heading: 600,
+        ebold: 800,
+        black: 900,
+    )
+);
+
+// Font Sizes (px)
+
+$font-size: (
+  fz: (
+    body: 18px,
+    p: 18px,
+    p2: 16px,
+    h1: 78px,
+    h2: 52px,
+    h3: 42px,
+    h4: 32px,
+    h5: 28px,
+    h6: 24px,
+  )
+);
+
+$font-size-tab: (
+  fz-tab: (
+    body: 18px,
+    h1: 48px,
+    h2: 40px,
+    h3: 32px,
+    h4: 28px,
+    h5: 24px,
+    h6: 20px,
+  )
+);
+
+$font-size-mob: (
+  fz-mob: (
+    body: 16px,
+    h1: 36px,
+    h2: 30px,
+    h3: 26px,
+    h4: 22px,
+    h5: 20px,
+    h6: 18px,
+  )
+);
+
+// Line Heights
+
+$line-height: (
+  lh: (
+    body: 1.56,
+    p: 1.56,
+    p2: 1.5,
+
+    h1: 110px,
+    h2: 74px,
+    h3: 1.25,
+    h4: 1.25,
+    h5: 1.28,
+    h6: 1.3,
+
+    h1-tab: 1.2,
+    h2-tab: 1.25,
+    h3-tab: 1.25,
+    h4-tab: 1.25,
+    h5-tab: 1.28,
+    h6-tab: 1.3,
+
+    h1-mob: 1.2,
+    h2-mob: 1.25,
+    h3-mob: 1.25,
+    h4-mob: 1.25,
+    h5-mob: 1.28,
+    h6-mob: 1.3,
+  )
+);

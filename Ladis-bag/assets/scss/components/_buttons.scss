@@ -1,0 +1,13 @@
+// Primary Button 
+.primary-btn {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    color: var(--st-common-white);
+    background-color: var(--st-theme-primary);
+    padding: 18px 32px;
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    justify-content: center;
+}
