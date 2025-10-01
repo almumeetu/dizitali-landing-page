@@ -1,0 +1,193 @@
+//Header Banner CSS Start Form Here
+.header-banner {
+  .header-banner-content {
+    .side-curd {
+      padding-top: 100px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .banner-middle-part {
+      padding-top: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      background-color: #f5f6f9;
+      border-bottom-left-radius: 999px;
+      border-bottom-right-radius: 999px;
+      text-align: center;
+
+      .banner-middle-img {
+        img {
+          width: 100%;
+        }
+      }
+
+      .banner-title {
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 12px;
+
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+//Header Banner CSS End Form Here
+
+
+//Feature Products Secton Start Here
+.feature-products {
+  .feature-img {}
+
+  .feature-content {
+    .feature-title {}
+
+    .feature-list {}
+  }
+
+  .feature-price-section {
+    min-height: 290px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: -100px;
+    z-index: 99;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    .price-wrapper {
+      .regular-price {}
+
+      .today-offer {
+        span {
+          display: inline-block;
+          padding: 7px 15px;
+          border: 2px solid var(--st-theme-primary);
+          border-radius: 50%;
+          color: var(--st-theme-primary);
+          position: relative;
+          white-space: nowrap;
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: -4px;
+            left: -4px;
+            right: -4px;
+            bottom: -4px;
+            border: 2px solid var(--st-theme-primary);
+            border-radius: 50%;
+            transform: rotate(-2deg);
+          }
+        }
+      }
+
+      .order-btn-wrapper {
+        gap: 40px;
+        margin-top: 28px;
+
+        .order-btn {}
+
+        .contact-box {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+
+          .whatsapp-icon-box {
+            width: 60px;
+            height: 60px;
+            background: #4ac959;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0;
+          }
+
+          .contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 2px;
+
+            .contact-caption {
+              font-weight: 500;
+            }
+
+            .contact-phone {
+              font-size: 20px;
+              font-weight: 600;
+              color: var(--st-common-black);
+              letter-spacing: 1px;
+              line-height: 1.1;
+              margin-top: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//video style start form here
+.video-wrapper {
+  .video-main-wrapper {
+    position: relative;
+
+    .video-play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+//video style end form here
+
+
+.faq-section-wrapper {
+  .h2 {
+    margin-bottom: 40px;
+  }
+
+  .accordion {
+    .accordion-item {
+      margin: 40px 0;
+      border-radius: 0;
+
+      .accordion-button {
+        background-color: var(--st-common-white);
+        color: var(--st-border-1);
+        box-shadow: none;
+
+        &:focus {
+          box-shadow: none;
+          border-color: transparent;
+          border-bottom: 1px solid var(--st-border-1);
+          border-radius: 0px;
+        }
+
+        &:not(.collapsed) {
+          color: var(--st-border-1);
+          ;
+          background-color: none;
+          border-bottom: 1px solid var(--st-border-1);
+          border-radius: 0px;
+        }
+
+        h6 {
+          font-weight: var(--st-fw-sbold);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// Common Class
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.background-position {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-container-xl {
+    max-width: 1722px;
+}
+
+.custom-container-small {
+    max-width: 1196px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
