@@ -1448,6 +1448,7 @@ p {
 }
 .faq-section-wrapper .accordion .accordion-item .accordion-button h6 {
   font-weight: var(--st-fw-sbold);
+  color: var(--st-common-body);
 }
 
 .help-for-yogurt .left-img img {
@@ -1593,6 +1594,7 @@ p {
   align-items: center;
   justify-content: center;
   border: 1px solid #E6E6E6;
+  cursor: pointer;
 }
 .order-form-wrapper .custom-container .your-product-cart .cart-wrapper .product-quantity .quantity-wrap .quantity span:nth-child(2) {
   border-left: none;
@@ -1617,6 +1619,7 @@ p {
   font-weight: 500;
   display: block;
   margin-bottom: 6px;
+  color: #555555;
 }
 .order-form-wrapper .form-wrapper .building-address .building-form-wrapper input[type=text],
 .order-form-wrapper .form-wrapper .building-address .building-form-wrapper input[type=tel] {
@@ -1833,13 +1836,16 @@ p {
 .order-summary-row {
   display: flex;
   justify-content: space-between;
-  color: #4a4a4a;
+  color: #555555;
   margin-bottom: 12px;
   padding-bottom: 12px;
   border-bottom: 2px dotted var(--st-border-1);
 }
 .order-summary-row:last-child {
   border: none;
+}
+.order-summary-row span {
+  font-weight: 600;
 }
 
 .b-none {
@@ -1955,6 +1961,9 @@ img {
 .customer-review-section-wrapper {
   background-color: var(--st-grey-2);
 }
+.customer-review-section-wrapper .testimonial-title {
+  margin-bottom: 40px;
+}
 .customer-review-section-wrapper .swiper {
   padding-bottom: 68px;
 }
@@ -1962,14 +1971,15 @@ img {
   bottom: 0;
 }
 .customer-review-section-wrapper .swiper .swiper-pagination-bullet {
-  width: 20px;
-  border: 2px solid #b30021;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--st-theme-primary);
   background: transparent;
   opacity: 1;
   border-radius: 0;
   margin: 0 5px !important;
 }
 .customer-review-section-wrapper .swiper .swiper-pagination-bullet-active {
-  background: #b30021;
-  border-color: #b30021;
+  background: var(--st-theme-primary);
+  border-color: var(--st-theme-primary);
 }/*# sourceMappingURL=main.css.map */

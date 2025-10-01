@@ -247,6 +247,7 @@
 
         h6 {
           font-weight: var(--st-fw-sbold);
+          color: var(--st-common-body);
         }
       }
     }
@@ -426,6 +427,7 @@
                 align-items: center;
                 justify-content: center;
                 border: 1px solid #E6E6E6;
+                cursor: pointer;
 
                 &:nth-child(2) {
                   border-left: none;
@@ -465,6 +467,7 @@
           font-weight: 500;
           display: block;
           margin-bottom: 6px;
+          color: #555555;
         }
 
         input[type="text"],
@@ -695,13 +698,16 @@
 .order-summary-row {
   display: flex;
   justify-content: space-between;
-  color: #4a4a4a;
+  color: #555555;
   margin-bottom: 12px;
   padding-bottom: 12px;
   border-bottom: 2px dotted var(--st-border-1);
 
   &:last-child {
     border: none;
+  }
+  span{
+    font-weight: 600;
   }
 }
 
