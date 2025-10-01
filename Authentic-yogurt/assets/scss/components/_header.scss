@@ -4,6 +4,10 @@
     .side-curd {
       padding-top: 100px;
 
+      @media #{$xs} {
+        display: none;
+      }
+
       img {
         width: 100%;
       }
@@ -19,6 +23,9 @@
       border-bottom-left-radius: 999px;
       border-bottom-right-radius: 999px;
       text-align: center;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-top: 12px solid var(--st-theme-primary);
 
       .banner-middle-img {
         img {
@@ -30,6 +37,11 @@
         text-align: center;
         padding-top: 32px;
         padding-bottom: 12px;
+
+        @media #{$lg} {
+          font-size: 50px;
+          line-height: 70px;
+        }
 
         span {
           display: block;
