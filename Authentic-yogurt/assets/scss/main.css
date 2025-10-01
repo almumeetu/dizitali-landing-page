@@ -19,6 +19,7 @@
   --st-heading-primary: #000000;
   --st-grey-1: #F3FAF5;
   --st-grey-2: #EEEEEE;
+  --st-grey-3: rgb(244, 245, 249);
   --st-text-body: #6A6A6A;
   --st-theme-primary: #B3041E;
   --st-border-1: #EEEEEE;
@@ -542,6 +543,7 @@
   --st-heading-primary: #000000;
   --st-grey-1: #F3FAF5;
   --st-grey-2: #EEEEEE;
+  --st-grey-3: rgb(244, 245, 249);
   --st-text-body: #6A6A6A;
   --st-theme-primary: #B3041E;
   --st-border-1: #EEEEEE;
@@ -1948,4 +1950,26 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+}
+
+.customer-review-section-wrapper {
+  background-color: var(--st-grey-2);
+}
+.customer-review-section-wrapper .swiper {
+  padding-bottom: 68px;
+}
+.customer-review-section-wrapper .swiper .swiper-pagination {
+  bottom: 0;
+}
+.customer-review-section-wrapper .swiper .swiper-pagination-bullet {
+  width: 20px;
+  border: 2px solid #b30021;
+  background: transparent;
+  opacity: 1;
+  border-radius: 0;
+  margin: 0 5px !important;
+}
+.customer-review-section-wrapper .swiper .swiper-pagination-bullet-active {
+  background: #b30021;
+  border-color: #b30021;
 }/*# sourceMappingURL=main.css.map */
