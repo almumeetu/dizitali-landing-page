@@ -1,0 +1,26 @@
+.customer-review-section-wrapper{
+    background-color: var(--st-grey-2);
+    .testimonial-title{
+        margin-bottom: 40px;
+    }
+    .swiper {
+        padding-bottom: 68px;
+        .swiper-pagination{
+            bottom: 0;
+        }
+        .swiper-pagination-bullet{
+            width: 16px;
+            height: 16px;              
+            border: 2px solid var(--st-theme-primary); 
+            background: transparent;   
+            opacity: 1;                
+            border-radius: 0;          
+            margin: 0 5px !important;  
+        }
+        .swiper-pagination-bullet-active {
+            background: var(--st-theme-primary); 
+            border-color: var(--st-theme-primary);
+        }
+    }
+    
+}
