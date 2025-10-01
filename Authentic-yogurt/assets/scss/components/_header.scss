@@ -217,6 +217,12 @@
 
 //FAQ section start form here
 .faq-section-wrapper {
+  .custom-container-small {
+    padding: 0;
+    @media #{$xs, $sm, $md, $lg}{
+      padding: 0 12px;
+    }
+  }
   .faq-title {
     margin-bottom: 40px;
   }
