@@ -56,12 +56,15 @@
 
 //Feature Products Secton Start Here
 .feature-products {
-  .feature-img {}
+  .feature-img {
+    width: 100%;
+  }
 
   .feature-content {
     @media #{$xs, $sm, $md} {
       margin-top: 40px;
     }
+
     .feature-title {
       padding-bottom: 8px;
     }
@@ -108,12 +111,16 @@
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
+
     @media #{$xl, $lg, $md, $sm, $xs} {
       margin-top: 30px;
     }
-    .price-wrapper {
-      .regular-price {}
 
+    @media #{$xs} {
+      min-height: 310px;
+    }
+
+    .price-wrapper {
       .today-offer {
         span {
           display: inline-block;
@@ -142,7 +149,12 @@
         gap: 40px;
         margin-top: 28px;
 
-        .order-btn {}
+        @media #{$xs} {
+          gap: 16px;
+          margin-top: 24px;
+          flex-direction: column;
+          align-items: center;
+        }
 
         .contact-box {
           display: flex;
@@ -185,6 +197,8 @@
   }
 }
 
+//Feature Products Secton End Here
+
 //video style start form here
 .video-wrapper {
   .video-main-wrapper {
@@ -201,9 +215,9 @@
 
 //video style end form here
 
-
+//FAQ section start form here
 .faq-section-wrapper {
-  .h2 {
+  .faq-title {
     margin-bottom: 40px;
   }
 
@@ -226,7 +240,6 @@
 
         &:not(.collapsed) {
           color: var(--st-border-1);
-          ;
           background-color: none;
           border-bottom: 1px solid var(--st-border-1);
           border-radius: 0px;
@@ -239,3 +252,71 @@
     }
   }
 }
+
+//FAQ section end form here
+
+
+//help-for-yogurt section start form here
+.help-for-yogurt {
+  .left-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .right-content {
+    .right-title {
+      margin-bottom: 32px;
+    }
+
+    .helpful-list {
+      ul {
+        li {
+          font-weight: 600;
+          font-size: 24px;
+          padding-bottom: 18px;
+          line-height: 28px;
+          display: flex;
+          align-items: start;
+          gap: 8px;
+
+          &:last-child {
+            padding-bottom: 0;
+          }
+
+          @media #{$xs, $sm, $md, $lg, $xl} {
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//help-for-yogurt section end form here
+
+
+//Cta call start form here
+.cta-call-wrapper {
+  span{
+    font-weight: 500;
+  }
+  .cta-call-number {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 12px;
+    background: #E0EFEA;
+    max-width: 520px;
+    justify-content: center;
+    margin: 0 auto;
+    @media #{$xs}{
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+}
+
+
+//Cta call end form here
