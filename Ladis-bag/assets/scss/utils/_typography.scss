@@ -2,15 +2,16 @@
 // font url
 
 $font-url: 'https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap';
+$font-url-2: 'https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap';
 
 // font family
 $font-family: (
     ff: (
-        body: "'Hind Siliguri', sans-serif",
-        heading: "'Hind Siliguri', sans-serif",
-        p: "'Hind Siliguri', sans-serif",
-        menu: "'Hind Siliguri', sans-serif",
-        button: "'Hind Siliguri', sans-serif",
+        body: "'jost', sans-serif",
+        heading: "'jost', sans-serif",
+        p: "'jost', sans-serif",
+        menu: "'jost', sans-serif",
+        button: "'jost', sans-serif",
     )
 );
 

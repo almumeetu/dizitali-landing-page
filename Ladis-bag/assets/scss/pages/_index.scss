@@ -1,0 +1,71 @@
+.Choose_area_wrapper{
+    .Choose-left-img{
+        width: 100%;
+    }
+    .feature-content{
+        @media #{$xs, $sm, $md} {
+            margin-top: 40px;
+        }
+        .feature-title {
+            padding-bottom: 40px;
+            line-height: 60px;
+            font-size: 51px;
+        }
+        .feature-list {
+            ul {
+                li {
+                    font-weight: 500;
+                    font-size: 24px;
+                    padding-bottom: 24px;
+                    line-height: 32px;
+                    display: flex;
+                    align-items: start;
+                    gap: 8px;
+
+                    &:last-child {
+                        padding-bottom: 60px;
+                        @media #{$xs, $sm, $md} {
+                            padding-bottom: 30px;
+                        }
+                    }
+
+                    @media #{$xs, $sm, $md, $lg, $xl} {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+         //Cta call start form here
+            .cta-call-number {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-top: 40px;
+                padding: 24px 12px;
+                background: rgba(90, 51, 56, 0.1);
+                justify-content: center;
+                margin: 0 auto;
+
+                @media #{$xs} {
+                flex-direction: column;
+                gap: 6px;
+                }
+            }
+    }
+}
+
+.service-area-wrapper{
+    .main-service-box{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 40px;
+        text-align: center;
+        .service-single{
+            h5{
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
