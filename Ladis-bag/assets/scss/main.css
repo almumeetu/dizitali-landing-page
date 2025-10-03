@@ -1458,6 +1458,18 @@ img {
   padding-bottom: 40px;
 }
 
+.main-banner-wrapper {
+  min-height: 800px;
+  background: no-repeat;
+  background-position: top right;
+  background-color: rgb(244, 245, 249);
+}
+.main-banner-wrapper .banner-item-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
 .Choose-area-wrapper img {
   width: 100%;
 }

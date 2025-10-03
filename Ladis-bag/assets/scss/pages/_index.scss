@@ -1,3 +1,15 @@
+
+.main-banner-wrapper{
+    min-height: 800px;
+    background: no-repeat;
+    background-position: top right ;
+    background-color: rgba(244, 245, 249, 1);
+    .banner-item-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
 // Why You Choose Area start here
 .Choose-area-wrapper{
     img{
