@@ -1,5 +1,5 @@
 .Choose_area_wrapper{
-    .Choose-left-img{
+    img{
         width: 100%;
     }
     .feature-content{
@@ -59,11 +59,32 @@
     .main-service-box{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        gap: 40px;
-        text-align: center;
+        @media #{$xl, $lg, $md, $sm } {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        @media #{$xs} {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
         .service-single{
-            h5{
+            border-right: 1px solid #ddd;
+            text-align: center;
+
+            &:last-child {
+                border: none;
+            }
+            @media #{$xs} {
+                border: none;
+            }
+            @media #{$xl, $lg, $md, $sm } {
+                padding: 15px;
+            }
+            h6{
                 padding-top: 20px;
+            }
+            p{
+                font-size: var(--st-fz-p2);
             }
         }
     }
