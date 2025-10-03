@@ -1406,6 +1406,10 @@ img {
   height: auto;
 }
 
+.pb-40 {
+  padding-bottom: 40px;
+}
+
 .Choose-area-wrapper img {
   width: 100%;
 }
