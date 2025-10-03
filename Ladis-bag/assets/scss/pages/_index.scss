@@ -1,4 +1,17 @@
-.Choose_area_wrapper{
+
+.main-banner-wrapper{
+    min-height: 800px;
+    background: no-repeat;
+    background-position: top right ;
+    background-color: rgba(244, 245, 249, 1);
+    .banner-item-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
+// Why You Choose Area start here
+.Choose-area-wrapper{
     img{
         width: 100%;
     }
@@ -8,8 +21,6 @@
         }
         .feature-title {
             padding-bottom: 40px;
-            line-height: 60px;
-            font-size: 51px;
         }
         .feature-list {
             ul {
@@ -47,7 +58,7 @@
                 justify-content: center;
                 margin: 0 auto;
 
-                @media #{$xs} {
+                @media #{$xs,md} {
                 flex-direction: column;
                 gap: 6px;
                 }
@@ -55,6 +66,7 @@
     }
 }
 
+//Service Area start here
 .service-area-wrapper{
     .main-service-box{
         display: grid;
@@ -90,3 +102,47 @@
     }
 }
 
+// Review Area start here
+
+.customer-review-area-wrapper{
+    position: relative;
+    max-height: 583px;
+    .feature-content{
+        h2{
+            color: var(--st-common-white);
+        }
+        p{
+           font-size: 24px;
+           line-height: 32px;
+           color: var(--st-common-white);
+           padding-bottom: 40px;
+        }
+    }
+    .swiper {
+        padding-bottom: 68px;
+        max-width: 1074px;
+        margin-left: 0;
+        margin-right: 0;
+        .swiper-pagination{
+            bottom: 0;
+        }
+        .swiper-pagination-bullet{
+            width: 16px;
+            height: 16px;              
+            border: 2px solid var(--st-theme-primary); 
+            background: transparent;   
+            opacity: 1;                
+            border-radius: 0;          
+            margin: 0 5px !important;  
+        }
+        .swiper-pagination-bullet-active {
+            background: var(--st-theme-primary); 
+            border-color: var(--st-theme-primary);
+        }
+    }
+    .review-img{
+        position: absolute;
+        right: 0;
+        top: 120px;
+    }
+}

@@ -24,9 +24,15 @@
 .custom-container-small {
     max-width: 1196px;
 }
-
+.custom-container-xs-small {
+    max-width: 1074px;
+}
 img{
     max-width: 100%;
     display: block;
     height: auto;
+}
+
+.pb-40{
+    padding-bottom: 40px;
 }

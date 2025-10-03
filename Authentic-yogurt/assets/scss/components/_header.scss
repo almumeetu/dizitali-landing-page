@@ -219,10 +219,12 @@
 .faq-section-wrapper {
   .custom-container-small {
     padding: 0;
-    @media #{$xs, $sm, $md, $lg}{
+
+    @media #{$xs, $sm, $md, $lg} {
       padding: 0 12px;
     }
   }
+
   .faq-title {
     margin-bottom: 40px;
   }
@@ -712,7 +714,8 @@
   &:last-child {
     border: none;
   }
-  span{
+
+  span {
     font-weight: 600;
   }
 }
@@ -787,12 +790,3 @@
 }
 
 
-footer{
-  .copyright-section{
-    background: #F4F5F9;
-    padding: 12px 0;
-    p{
-      font-weight: 500;
-    }
-  }
-}
