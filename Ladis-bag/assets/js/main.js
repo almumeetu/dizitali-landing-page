@@ -1,4 +1,4 @@
-var swiper = new Swiper(".testimonial-yogurt", {
+var swiper = new Swiper(".testimonial-ladies", {
     slidesPerView: 4,
     spaceBetween: 24,
     autoplay: {
