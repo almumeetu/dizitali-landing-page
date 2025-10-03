@@ -22,7 +22,7 @@
   --st-grey-2: #EEEEEE;
   --st-grey-3: rgb(244, 245, 249);
   --st-text-body: #6A6A6A;
-  --st-theme-primary: #B3041E;
+  --st-theme-primary: #5A3338;
   --st-border-1: #EEEEEE;
   --st-bg-1: rgb(245, 245, 245);
   /**
@@ -546,7 +546,7 @@
   --st-grey-2: #EEEEEE;
   --st-grey-3: rgb(244, 245, 249);
   --st-text-body: #6A6A6A;
-  --st-theme-primary: #B3041E;
+  --st-theme-primary: #5A3338;
   --st-border-1: #EEEEEE;
   --st-bg-1: rgb(245, 245, 245);
   /**
@@ -1245,6 +1245,129 @@ p {
   align-items: center;
   gap: 11px;
   justify-content: center;
+}
+
+.video-wrapper .video-main-wrap {
+  position: relative;
+}
+.video-wrapper .video-main-wrap .video-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-wrapper .video-content {
+  font-size: 32px;
+  line-height: 1.3;
+  margin-top: 40px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px), (max-width: 575.98px), only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .video-wrapper .video-content {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-top: 24px;
+  }
+}
+.video-wrapper .order-btn-wrapper {
+  gap: 40px;
+  margin-top: 28px;
+  justify-content: center;
+}
+@media (max-width: 575.98px) {
+  .video-wrapper .order-btn-wrapper {
+    gap: 16px;
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.video-wrapper .order-btn-wrapper .contact-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.video-wrapper .order-btn-wrapper .contact-box .whatsapp-icon-box {
+  width: 60px;
+  height: 60px;
+  background: #4ac959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+.video-wrapper .order-btn-wrapper .contact-box .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2px;
+}
+.video-wrapper .order-btn-wrapper .contact-box .contact-info .contact-caption {
+  font-weight: 500;
+}
+.video-wrapper .order-btn-wrapper .contact-box .contact-info .contact-phone {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--st-common-black);
+  letter-spacing: 1px;
+  line-height: 1.1;
+  margin-top: 2px;
+}
+
+.product-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-details ul li {
+  background: #F4F5F9;
+  padding: 16px;
+  margin-bottom: 40px;
+  border-radius: 0;
+  font-size: 28px;
+  position: relative;
+  font-weight: 500;
+  text-align: center;
+  color: var(--st-heading-primary);
+}
+
+.arrow-right::after,
+.arrow-left::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 2px;
+  background: #5b2327;
+}
+
+.arrow-right::after {
+  right: -65px;
+}
+
+.arrow-left::after {
+  left: -65px;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .product-details ul li {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .arrow-right::after,
+  .arrow-left::after {
+    display: none;
+  }
+}
+footer .copyright-section {
+  background: #F4F5F9;
+  padding: 12px 0;
+}
+footer .copyright-section p {
+  font-weight: 500;
 }
 
 .p-relative {
